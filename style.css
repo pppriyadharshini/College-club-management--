@@ -1,0 +1,6 @@
+body { font-family: Arial; background: #f2f5fb; margin: 0; }
+header { background: #1e40af; color: white; text-align: center; padding: 20px; }ion { background: white; margin: 20px auto; padding: 20px;
+          max-width: 900px; border-radius: 12px; }
+button { background: #2563eb; color: white; padding: 10px; border: 0; }
+#clubList { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+@media (max-width: 600px) { #clubList { grid-template-columns: 1fr;
